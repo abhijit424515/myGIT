@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+System\ Volume\ Information/
+$RECYCLE.BIN/
+.git/
+
+# dependencies
+DC_EXP_ZONE/spotify_final/node_modules
+DC_EXP_ZONE/spotify_final/.pnp
+DC_EXP_ZONE/spotify_final/.pnp.js
+DC_EXP_ZONE/my-test/node_modules
+DC_EXP_ZONE/my-test/.pnp
+DC_EXP_ZONE/my-test/.pnp.js
+
+# testing
+DC_EXP_ZONE/spotify_final/coverage
+DC_EXP_ZONE/my-test/coverage
+
+# production
+DC_EXP_ZONE/spotify_final/build
+DC_EXP_ZONE/my-test/build
+
+# misc
+DC_EXP_ZONE/spotify_final/.DS_Store
+DC_EXP_ZONE/spotify_final/.env.local
+DC_EXP_ZONE/spotify_final/.env.development.local
+DC_EXP_ZONE/spotify_final/.env.test.local
+DC_EXP_ZONE/spotify_final/.env.production.local
+DC_EXP_ZONE/my-test/.DS_Store
+DC_EXP_ZONE/my-test/.env.local
+DC_EXP_ZONE/my-test/.env.development.local
+DC_EXP_ZONE/my-test/.env.test.local
+DC_EXP_ZONE/my-test/.env.production.local
+
+DC_EXP_ZONE/spotify_final/npm-debug.log*
+DC_EXP_ZONE/spotify_final/yarn-debug.log*
+DC_EXP_ZONE/spotify_final/yarn-error.log*
+DC_EXP_ZONE/my-test/npm-debug.log*
+DC_EXP_ZONE/my-test/yarn-debug.log*
+DC_EXP_ZONE/my-test/yarn-error.log*
