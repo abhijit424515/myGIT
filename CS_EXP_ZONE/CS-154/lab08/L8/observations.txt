@@ -1,0 +1,22 @@
+=> reusable.cpp :
+    - used mod_calculator function in 2 implementations
+
+=> impl1.cpp : 
+    - used a function to check for re-occurences of any word
+    - then, used 2 vectors for each file, one for each word, and one for no of occurences of that word
+    - used dot product to answer 100*cosine(theta) as score
+    
+=> impl2.cpp : 
+    - defined a struct in resuable.cpp
+    - 2 list of characters list_of_chars1 and list_of_chars2 store the collection of letters used in files given by strings n1,n2.
+    - storing list of indices of occurence of each character in the file (excluding spaces)
+    - taking average of the list, then finding mean deviation to calculate score
+    - on obtaining 2 vectors, i used dot product to answer 100*cosine(theta) as score
+    - right now, the code requires some debugging
+
+=> impl3.cpp : 
+    - 2 list of words rawList1 and rawList2 store the collection of words used in files given by strings n1,n2.
+    - using max of number of elements of rawList1 and rawList2 as numerator
+    - finding the union of rawList1 and rawList2 to use as denominator.
+    - score = 100*(numerator/denominator)
+    - however, use of spaces can hinder the ability of the algorithm

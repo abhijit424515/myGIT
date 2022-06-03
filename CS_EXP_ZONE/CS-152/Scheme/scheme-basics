@@ -1,0 +1,30 @@
+# start Scheme using
+    $ scheme
+
+# basics
+1. simple expressions
+    (+ 10 35)
+    (/ 5 6)
+    (* 3 2 7)
+    
+2. nesting
+    (+ 35 (/ 50 2))
+
+3. trigonometry (inputs in radians)
+    (sin (/ (* 30 3.14) 180))
+
+4. defining and using variables
+    (define pi 3.14159)
+    (sin (/ (* 30 pi) 180))
+    (define twopi (* pi 2))
+
+5. output value of variable
+    pi
+
+6. defining commands
+    (define (cylinder-vol r h) (* pi r r h))
+
+7. comments
+    ;; this is a comment
+
+8. 

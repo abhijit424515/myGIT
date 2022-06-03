@@ -1,0 +1,15 @@
+problem1recursive.py =>
+- used a recursive function with a main list, and a parameter t using which we limit the number of sublists to use in the function for joinig the strings in those sublists
+
+
+problem2recursive.py =>
+- added more grammatical improvements to create more tense forms
+
+problem3recursive.py =>
+- iterating through each term, we called the permutator function recursively using a list which excluded the iterated term, and extended the returned permutations to iterating term, and finally updated the list of all permutations
+
+problem3iterative.py =>
+- created an empty list, added one element, then popped it
+- then, added the next element in all position positions relative to existing elements
+- finally, obtained all combinations of the permutations
+- some debugging is still needed

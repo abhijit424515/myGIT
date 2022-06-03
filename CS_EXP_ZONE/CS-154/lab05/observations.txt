@@ -1,0 +1,25 @@
+HOW TO PLAY THE GAME =>
+- There is a green ball (Dodgeball) which can move to 4 different positions upon clicking the Dodgeball, and there is a blue ball(Throwball) which we have to evade. 
+- The Throwball is a special ball, as after colliding with any wall, it's speed increases linearly, but the angle of reflection of the ball is randomly assigned.   
+- Your score is the time from the start of the game to the point when the balls collide, and it is printed in the terminal.
+- The game actually tests reaction time and click speed.
+- The max speed of the ball has been limited.
+- The game can be closed using Alt + F4 or by closing the graphical window.
+
+ABOUT THE CODE =>
+- The Shape class is derived from Fl_Widget, and the wipe, refresh and handle functions have been declared as pure.
+- The BGRect class is derived from Shape, and simply serves as the red background.
+- The Throwball class is derived from Shape, and the major part in this class is the draw function, which is repeatedly called by an external function to simulate the animation of a moving throwball.
+    - In the draw function, we first check for the collision of the throwball with any of the 4 walls.
+    - Accordingly, we assign a random angle for the ball's angle of reflection.  
+    - Then we update the velocity of the ball, and an if statement to limit the max velocity of the throwball.  
+    - Finally, we hide the previous drawings of the throwball using wipe(), then create a new drawing with the required color.
+    - We don't need to directly interact with the throwball, so we simply return 1; in handle().
+- Then, we have the MyTimer function, which is used to repetively call the draw function in Throwball class using repeat_timeout() function.
+    - Also, this function regularly checks for the collision between the balls, and prints the score when collision occurs and then exits the program.
+- The Dodgeball class is also derived from the Shape class.
+    - The important part in this class is the handle function, which is used to shift the position of the Dodgeball when it is clicked upon using any mouse button. 
+- Finally, we have the GAME class, which contains the pointers to all the above classes, and also has the add_timeout function call for the moving throwball animation.
+
+- In the main function, we simply called srand(time(0)) to specify a starting point for the random function.
+- Then, we created an object using GAME class, and returned the Fl::run() function.

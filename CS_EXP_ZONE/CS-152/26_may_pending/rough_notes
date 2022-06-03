@@ -1,0 +1,12 @@
+2,2
+	2,1	
+
+
+__________________________________________
+
+if in store, directly return
+if not in store, calculate trivial case, append to store, and directly return 
+		, for non trivial cases, recursive call to calculate simpler terms
+					,for simpler term, 
+
+besides simpler terms, also append complex terms to increase efficiency

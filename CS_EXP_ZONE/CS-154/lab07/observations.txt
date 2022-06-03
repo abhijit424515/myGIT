@@ -1,0 +1,51 @@
+str2int =>
+   -> str2int-failed1.cpp
+        The basic functionality has been implemented. Type in a string, and it will get converted to integer and the integer value will be printed in terminal.
+        However, this code will fail to reject non-integral strings.
+        Also, it will not be able to handle integer overflows.
+        Also, it does not work properly for negative integers.
+   -> str2int-failed2.cpp
+        This code now works for negative numbers, but can't yet reject non-integral strings.
+        Also, it cannot handle integer overflows yet.
+   -> str2int-failed3.cpp
+        This code uses assert() to reject non-integral strings.
+        It also accounts for negative numbers.
+        However, it cannot handle integer overflows yet.
+   -> str2int.cpp
+        This code works for negative numbers, and also uses assert() to reject non-integral strings.
+        Also, it handles integer overflows (i.e. integer >= INT_MIN and integer <= INT_MAX).
+
+
+substring =>
+   -> substring-failed1.cpp
+        This code implements the basic functionality of finding a given substring in a given main string.
+        First, enter the main string, then after a space enter the substring to find, and the program will return the index of the position of the substring in the string.
+        In case the substring is not found in the main string, the index value is returned to be -1;
+        However, there are no assert statements used here.
+        Also, strings with spaces cannot be used here.
+   -> string-failed2.cpp
+        Assert statements have been used for sanity check, including the fact that length of main string >= length of substring. 
+        Else the rest of the functionality is the same as above.
+        However, strings with spaces cannot be used here yet.
+   -> string.cpp
+        Assert statements used for sanity check, including the fact that length of main string >= length of substring.
+        Also, cin replaced with getline(cin) to be enable us to use strings with spaces. 
+          So, first enter the main string, then hit Enter, then enter the substring, then hit Enter to return the index.
+        Rest of the functionality remains same as above.
+
+
+collection =>
+   -> collection-failed1.cpp
+        Implemented the basic functionality of code, where push_back is for adding elements to the stack, while pop_back removes the last element from the stack.
+        An additional member function with operator overloading has also been added to return the element at index n in stack.
+        However, no assert statements have been used.
+        Also, integer overflow in cin hasn't been accounted for.
+   -> collection-failed2.cpp
+        In class constructor, used an assert for proper initialization. 
+        In push_back and pop_back, used assert statements for valid operations.
+        In operator overload member function, used an assert to make sure that if we want to call kth element, k must be less than card (no of elements present in stack currently).
+        Yet, integer overflow in cin hasn't been accounted for.
+   -> collection.cpp
+        Used assert in class constructor and member functions as described above.
+        Also accounted for integer overflow in cin used in int main(), by first storing the number in long long int, 
+          then when we call push_back, it first sends the long long int to the overflow_check function, which checks if the number can be stored as integer by comparing it with INT_MAX and INT_MIN.

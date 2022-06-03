@@ -1,0 +1,18 @@
+- While in C++, indentation was freely used for easier readability, in Python indentation is used to indicate a block of code, and so it must be properly used.
+
+- In print function, we have a parameter named "end", which specifies the additional character placed after printing something using print function. 
+    - By default, end="\n", where \n is the newline escape sequence character which moves the cursor to next line.
+    - Other escape sequences include \t for tab, \\ for backslash, \0 for null, etc.
+
+- When using for loop, we can use "in" keyword to directly iterate over each element in a list. 
+    - When using strings, we iterate through each character.
+
+- Range function works ONLY on integers, not floats.
+    - It is probably because of the issue of float point arithmetics.
+- Same as in C++, break exists the for loop immediately on the current iteration, while continue skips the remaining commands in the current iteration
+
+- Unlike in C++, sets and lists can hold variables of multiple data types
+- Sets act like mathematical sets, since no element is repeated and operations between sets correlate to those in math
+
+- List slicing is easier than in C++, since we can directly target the required indices
+- Functions can be directly passed and used as parameters to/from other functions

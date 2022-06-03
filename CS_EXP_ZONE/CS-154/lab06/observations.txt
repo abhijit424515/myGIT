@@ -1,0 +1,14 @@
+alchemy.cpp
+    - incorporated the game into a class, and declared the create, lookall and lookinfo functions as private 
+    - better indentation 
+    - names of several variables were changed to more coding-friendly names
+    - removed oo object of ifstream (unused)
+    - replaced blh variable with -1
+    - replaced i with true in certain locations in while loops
+
+atoms.cpp 
+    - incorporated the game into a class
+    - removed the reduntant lines 23,24
+    - replaced repetitive code with a function
+    - removed the reduntant lines 28 to 49
+    - names of several variables were changed to more coding-friendly names

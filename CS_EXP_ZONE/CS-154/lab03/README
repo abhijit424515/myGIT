@@ -1,0 +1,20 @@
+Abhijit Amrendra Kumer
+210050002
+
+file0 =>
+    - I made a super class, which had the features of the class prodC. 
+    - Using that, I created subclass prodB, using that I made prodA. 
+    - Finally, I printed out a table denoting the feature list.
+
+file1 =>
+    - To modify clashing features in making subclasses, I declared the variables as PROTECTED, and in subclasses I modified only those clashing features. 
+    - I made a super class, which had the features of the class prodB.
+    - Finally, I printed out the features of each device in a spaced manner.
+
+file2 =>
+    - To modify clashing features in making subclasses, I declared the variables as PROTECTED, and in subclasses I modified only those clashing features. 
+    - Printed out the table given in problem2
+
+file3 =>
+    - To modify clashing features in making subclasses, I declared the variables as PROTECTED, and in subclasses I modified only those clashing features. 
+    - I printed out the features of each device in a spaced manner.

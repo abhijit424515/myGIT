@@ -1,0 +1,6 @@
+At the beginning of my coding journey, I thought the way to learn to code was to read a whole bunch of books. 
+I bought books on C++, C#, Java and loads more. You name it, I had it. But they didn’t do very much other than making me confused. *I read. I highlighted. I forgot. I fell asleep.* 
+
+Books are good as references. If you want to dive deep into delegates and protocols, read the chapter on that. *But if you want to learn, make something*. 
+
+*But what do you make? Lacking in ideas? Be a copycat*. Make your own notepad, make your own MSPaint, make your own piano. If you’re into games, make minesweeper, make Tetris, make Flappy Bird. Not only will they be sort-of useful, but they’ll also be the perfect opportunity for you to figure out how to do things and get experience in finding help. Something that is brand new to the world like holographic smartphone projections, no one will be able to help you with. By making copycat apps or programs, you’ll be treading in the path that many have walked before you. This way you maximise the chances that someone will be able to offer you help and advice when you get stuck.

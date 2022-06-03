@@ -1,0 +1,111 @@
+== ANALYSIS ==
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+: ArchitGupta-IITB
+
+ours_is_blue	5/5
+ours_is_red	0/0	his code has some bug
+
+Clues =>
+
+Cons =>
+- Deploying less virus
+- Heavily relying on randint
+- Deploying too many robots
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+: Arhaan
+
+ours_is_blue	0/5
+ours_is_red	0/5
+
+Clues =>
+- Using Hilbert curve to recollect a lot of virus
+- Using min(fraction_based_virus-deployments,absolute_virus_deployment)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+: detectivealpha176
+
+ours_is_blue	2/5
+ours_is_red	2/5
+
+Clues =>
+- possibly more virus deployed for later-robots-detections
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+: DhanoHacks
+
+ours_is_blue	2/5
+ours_is_red	1/5
+
+Clues =>
+- Relying less on random, and rather on specific paths of the robots if they get LOST, also to span a bigger area as well as target the enemy base
+
+Cons =>
+- Not relying on the gang up code
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+: k-rt-k
+
+ours_is_blue	5/5
+ours_is_red	5/5
+
+Warning =>
+- Last commit was yesterday (+), but deleted scriptblue.py and scriptred.py files in the next commit a few min later (-)
+
+Cons =>
+- Extremely defensive play, but should have put more thought into it
+- Negligible offense
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+: Mayank-Gupta11
+
+ours_is_blue	5/5
+ours_is_red	0/5
+
+Clues =>
+- Good possibility of us running out of timeframes even if game is trivially ours to win
+
+Cons =>
+- Buggy code. Didn't account for various base positions 
+- Good strategy, but improper virus deployment
+- Poor base defense
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+: pri1618
+
+ours_is_blue	4/5
+ours_is_red	3/5
+
+Clues =>
+- We ran out of timeframes in 1 match
+- Need to systemize motion of LOST robots
+
+Cons =>
+- Low virus deployment
+- Practically no offense
+- Defensive strategy
+- Heavily relying on randint
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+: shobman17
+
+ours_is_blue	2/5
+ours_is_red	0/5
+
+Clues =>
+- Need to make enemy_base_virus_deployment as top priority
+
+Pros =>
+- Solid offense
+
+Cons =>
+- Base is almost undefended

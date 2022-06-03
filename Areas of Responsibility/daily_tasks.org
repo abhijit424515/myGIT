@@ -1,0 +1,5 @@
+#+TITLE: daily_tasks
+
+* TODO : WHAT ARE YOU WILLING TO TRADE FOR A BETTER LIFE ?
+* TODO : Clean up the cycle, and get the tires filled up this evening
+** TODO : Try out syntaxical/functional notes for programming

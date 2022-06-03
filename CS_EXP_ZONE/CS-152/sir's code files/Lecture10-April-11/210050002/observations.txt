@@ -1,0 +1,4 @@
+Abstractions =>
+    - Included FLTK header files, and used class Rangoli : public Fl_widget to make an extended class
+    - Fl_Widget does not have a default constructor, so we needed to create one in the extended class
+    - The draw function handles the graphics, and the 'next' function marked private is to simplify calculations
