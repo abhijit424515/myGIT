@@ -1,0 +1,4 @@
+In C++, we are breaking down the different processes used in making the program into member functions.
+This way, for large programs, we don't need to worry about the whole code, and only focus on specific units.
+
+In contrast, since in C language we can't use classes, we have to keep many variables and objects in our mind during coding, which is a problem for large code files.

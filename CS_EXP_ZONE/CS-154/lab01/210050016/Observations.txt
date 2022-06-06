@@ -1,0 +1,5 @@
+In the c files, I just directly told the program what to do in a function. The focus was more on directly doing things in an algorithmic way (i.e. on the *procedure*).
+
+While in the C++ programs, I made a class that does this work through it's member functions. We could set aside a class to do a specific work, like in problem 1, I made a dice that abstracted away the logic of generating the random number. It would certainly be easier to work like this in larger programs, and people can, say, work on counting frequencies without worrying about how to generate random number. A function could also have done this, but with classes we can do more complex things because they can have data memebers, and we can also have private members.
+
+In my opinion, in the problems such as the ones we had, the procedural approach was much simpler.
